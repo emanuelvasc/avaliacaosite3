@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre - SportPro</title>
+  <link rel="stylesheet" href="styles/sobre.css">
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="header-flex">
+      <a class="brand" href="index.html">SportPro</a>
+      <nav class="main-nav">
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="sobre-container">
+    <section class="intro">
+      <h1>Sobre a SportPro</h1>
+      <p>
+        A <strong>SportPro</strong> nasceu da paixão pelo esporte e do desejo de levar equipamentos
+        e vestuários de alta qualidade para atletas e entusiastas de todo o Brasil.  
+        Nosso objetivo é oferecer produtos que unem conforto, desempenho e estilo.
+      </p>
+    </section>
+
+    <section class="valores">
+      <div class="card">
+        <h2>Missão</h2>
+        <p>Proporcionar aos clientes a melhor experiência esportiva, com produtos que incentivem uma vida ativa e saudável.</p>
+      </div>
+
+      <div class="card">
+        <h2>Visão</h2>
+        <p>Ser referência nacional em produtos esportivos de alta performance, promovendo o bem-estar e o esporte como estilo de vida.</p>
+      </div>
+
+      <div class="card">
+        <h2>Valores</h2>
+        <ul>
+          <li>Comprometimento com o cliente</li>
+          <li>Inovação e qualidade</li>
+          <li>Paixão pelo esporte</li>
+          <li>Ética e respeito</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="historia">
+      <h2>Nossa História</h2>
+      <p>
+        Desde 2010, a SportPro tem se dedicado a oferecer produtos que fazem a diferença no dia a dia dos atletas.
+        Começamos com uma pequena loja local e, com o apoio de nossos clientes, crescemos para nos tornar uma das principais marcas esportivas do país.
+      </p>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand" href="#">SportPro</a>
+      <p>Equipamentos e roupas esportivas — entrega para todo o Brasil.</p>
+     
+      <div class="legal">© <span id="ano"></span> SportPro. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
